@@ -67,7 +67,7 @@ export default function About() {
               marginBottom: '1.5rem',
               fontWeight: 300,
             }}>
-              Pulsar Fitness Centre was founded with one belief — that the right environment can unlock extraordinary results. Located in the heart of Yelahanka, Bengaluru, we've built a space where serious training meets genuine community.
+              Neon Fitness Gym was founded with one belief — that the right environment can unlock extraordinary results. Located in Old Ambattur, SIDCO Industrial Estate, Chennai, we've built a space where serious training meets genuine community.
             </p>
             <p style={{
               fontSize: '1.05rem',
@@ -75,7 +75,7 @@ export default function About() {
               lineHeight: '1.8',
               fontWeight: 300,
             }}>
-              Under the guidance of <strong style={{ color: 'var(--white)', fontWeight: 600 }}>Gopinathan D</strong>, our team brings a disciplined, results-focused approach to every program we offer — from strength and conditioning to weight management and beyond.
+              Under the guidance of <strong style={{ color: 'var(--white)', fontWeight: 600 }}>Mohanraj A</strong>, our team brings a disciplined, results-focused approach to every program we offer — from strength and conditioning to weight management and beyond.
             </p>
 
             <div style={{
@@ -100,7 +100,7 @@ export default function About() {
                 letterSpacing: '0.1em',
                 textTransform: 'uppercase',
               }}>
-                — Gopinathan D, Founder
+                — Mohanraj A, Founder
               </p>
             </div>
           </div>
@@ -108,7 +108,7 @@ export default function About() {
           {/* Right visual */}
           <div style={{
             background: 'var(--dark-2)',
-            border: '1px solid rgba(200,245,0,0.1)',
+            border: '1px solid rgba(0,180,255,0.1)',
             borderRadius: '4px',
             padding: '3rem',
             position: 'relative',
@@ -120,12 +120,12 @@ export default function About() {
               right: '-20px',
               width: '150px',
               height: '150px',
-              background: 'radial-gradient(circle, rgba(200,245,0,0.1) 0%, transparent 70%)',
+              background: 'radial-gradient(circle, rgba(0,180,255,0.1) 0%, transparent 70%)',
             }} />
             <div style={{
               fontFamily: 'var(--font-display)',
               fontSize: '5rem',
-              color: 'rgba(200,245,0,0.08)',
+              color: 'rgba(0,180,255,0.08)',
               lineHeight: 1,
               marginBottom: '1rem',
             }}>PULSE</div>
@@ -164,10 +164,10 @@ export default function About() {
               padding: '2rem',
               transition: 'border-color 0.2s, transform 0.2s',
             }}
-              onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(200,245,0,0.3)'; e.currentTarget.style.transform = 'translateY(-4px)' }}
+              onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(0,180,255,0.3)'; e.currentTarget.style.transform = 'translateY(-4px)' }}
               onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(255,255,255,0.06)'; e.currentTarget.style.transform = 'translateY(0)' }}
             >
-              <Icon size={28} color="#c8f500" style={{ marginBottom: '1rem' }} />
+              <Icon size={28} color="#00b4ff" style={{ marginBottom: '1rem' }} />
               <h3 style={{
                 fontFamily: 'var(--font-condensed)',
                 fontSize: '1.1rem',

@@ -31,8 +31,8 @@ export default function Hero() {
         position: 'absolute',
         inset: 0,
         backgroundImage: `
-          linear-gradient(rgba(200,245,0,0.04) 1px, transparent 1px),
-          linear-gradient(90deg, rgba(200,245,0,0.04) 1px, transparent 1px)
+          linear-gradient(rgba(0,180,255,0.04) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(0,180,255,0.04) 1px, transparent 1px)
         `,
         backgroundSize: '60px 60px',
         zIndex: 0,
@@ -46,7 +46,7 @@ export default function Hero() {
         transform: 'translate(-50%, -50%)',
         width: '600px',
         height: '600px',
-        background: 'radial-gradient(circle, rgba(200,245,0,0.08) 0%, transparent 70%)',
+        background: 'radial-gradient(circle, rgba(0,180,255,0.08) 0%, transparent 70%)',
         zIndex: 0,
         pointerEvents: 'none',
       }} />
@@ -68,7 +68,7 @@ export default function Hero() {
           color: 'var(--pulse)',
           marginBottom: '1.5rem',
         }}>
-          ⚡ Bengaluru's Premier Fitness Destination
+          ⚡ Chennai's Premier Fitness Destination
         </p>
 
         <h1 style={{
@@ -79,7 +79,7 @@ export default function Hero() {
           color: 'var(--white)',
           marginBottom: '0.3rem',
         }}>
-          PULSAR
+          NEON
         </h1>
         <h1 style={{
           fontFamily: 'var(--font-display)',
@@ -99,7 +99,7 @@ export default function Hero() {
           color: 'rgba(255,255,255,0.3)',
           marginBottom: '2.5rem',
         }}>
-          CENTRE
+          GYM
         </h1>
 
         <p style={{
@@ -127,13 +127,13 @@ export default function Hero() {
             transition: 'all 0.2s',
             display: 'inline-block',
           }}
-            onMouseEnter={e => { e.target.style.background = '#a8d000'; e.target.style.transform = 'translateY(-2px)' }}
+            onMouseEnter={e => { e.target.style.background = '#0090cc'; e.target.style.transform = 'translateY(-2px)' }}
             onMouseLeave={e => { e.target.style.background = 'var(--pulse)'; e.target.style.transform = 'translateY(0)' }}
           >
             Explore Programs
           </a>
           <a href="#contact" style={{
-            border: '1px solid rgba(200,245,0,0.4)',
+            border: '1px solid rgba(0,180,255,0.4)',
             color: 'var(--pulse)',
             padding: '1rem 2.5rem',
             fontFamily: 'var(--font-condensed)',
@@ -145,7 +145,7 @@ export default function Hero() {
             transition: 'all 0.2s',
             display: 'inline-block',
           }}
-            onMouseEnter={e => { e.target.style.background = 'rgba(200,245,0,0.08)'; e.target.style.transform = 'translateY(-2px)' }}
+            onMouseEnter={e => { e.target.style.background = 'rgba(0,180,255,0.08)'; e.target.style.transform = 'translateY(-2px)' }}
             onMouseLeave={e => { e.target.style.background = 'transparent'; e.target.style.transform = 'translateY(0)' }}
           >
             Get in Touch

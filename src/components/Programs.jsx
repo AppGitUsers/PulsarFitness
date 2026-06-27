@@ -112,7 +112,7 @@ export default function Programs() {
                 cursor: 'default',
               }}
                 onMouseEnter={e => {
-                  e.currentTarget.style.borderColor = 'rgba(200,245,0,0.25)'
+                  e.currentTarget.style.borderColor = 'rgba(0,180,255,0.25)'
                   e.currentTarget.style.background = 'var(--dark-2)'
                   e.currentTarget.style.transform = 'translateY(-4px)'
                 }}
@@ -129,7 +129,7 @@ export default function Programs() {
                   right: '1rem',
                   fontFamily: 'var(--font-display)',
                   fontSize: '5rem',
-                  color: 'rgba(200,245,0,0.04)',
+                  color: 'rgba(0,180,255,0.04)',
                   lineHeight: 1,
                   userSelect: 'none',
                 }}>
@@ -137,7 +137,7 @@ export default function Programs() {
                 </div>
 
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1.2rem' }}>
-                  <Icon size={26} color="#c8f500" />
+                  <Icon size={26} color="#00b4ff" />
                   <span style={{
                     fontFamily: 'var(--font-condensed)',
                     fontSize: '0.7rem',

@@ -18,26 +18,26 @@ export default function Contact() {
     {
       icon: Phone,
       label: 'Call Us',
-      value: '+91 99805 88044',
-      link: 'tel:+919980588044',
+      value: '+91 93449 83750',
+      link: 'tel:+919344983750',
     },
     {
       icon: MessageCircle,
       label: 'WhatsApp',
-      value: '+91 99805 88044',
-      link: 'https://wa.me/919980588044',
+      value: '+91 93449 83750',
+      link: 'https://wa.me/919344983750',
     },
     {
       icon: Mail,
       label: 'Email',
-      value: 'gopi.orafly@gmail.com',
-      link: 'mailto:gopi.orafly@gmail.com',
+      value: 'mohanraja23032003@gmail.com',
+      link: 'mailto:mohanraja23032003@gmail.com',
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Door No. 304, Heritage Estate, Yelahanka, Bengaluru – 560064',
-      link: 'https://maps.google.com/?q=Yelahanka,Heritage+Estate,Bengaluru',
+      value: 'No.442, Old Ambattur, SIDCO Industrial Estate, Chennai - 600058',
+      link: 'https://maps.google.com/?q=No.442,Old+Ambattur,SIDCO+Industrial+Estate,Chennai+600058',
     },
     {
       icon: Clock,
@@ -69,7 +69,7 @@ export default function Contact() {
         left: '-100px',
         width: '400px',
         height: '400px',
-        background: 'radial-gradient(circle, rgba(200,245,0,0.05) 0%, transparent 70%)',
+        background: 'radial-gradient(circle, rgba(0,180,255,0.05) 0%, transparent 70%)',
         transform: 'translateY(-50%)',
         pointerEvents: 'none',
       }} />
@@ -127,14 +127,14 @@ export default function Contact() {
                     flexShrink: 0,
                     width: '40px',
                     height: '40px',
-                    background: 'rgba(200,245,0,0.08)',
-                    border: '1px solid rgba(200,245,0,0.15)',
+                    background: 'rgba(0,180,255,0.08)',
+                    border: '1px solid rgba(0,180,255,0.15)',
                     borderRadius: '4px',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
                   }}>
-                    <Icon size={18} color="#c8f500" />
+                    <Icon size={18} color="#00b4ff" />
                   </div>
                   <div>
                     <div style={{
@@ -154,7 +154,7 @@ export default function Contact() {
                         transition: 'color 0.2s',
                         whiteSpace: 'pre-line',
                       }}
-                        onMouseEnter={e => e.target.style.color = '#c8f500'}
+                        onMouseEnter={e => e.target.style.color = '#00b4ff'}
                         onMouseLeave={e => e.target.style.color = 'var(--grey-light)'}
                       >{value}</a>
                     ) : (
@@ -170,7 +170,7 @@ export default function Contact() {
               marginTop: '2.5rem',
               padding: '1.5rem',
               background: 'var(--dark-2)',
-              border: '1px solid rgba(200,245,0,0.15)',
+              border: '1px solid rgba(0,180,255,0.15)',
               borderRadius: '4px',
               display: 'flex',
               alignItems: 'center',
@@ -188,7 +188,7 @@ export default function Contact() {
                 fontSize: '1.4rem',
                 color: 'var(--black)',
                 flexShrink: 0,
-              }}>G</div>
+              }}>M</div>
               <div>
                 <div style={{
                   fontFamily: 'var(--font-condensed)',
@@ -196,7 +196,7 @@ export default function Contact() {
                   fontWeight: 700,
                   color: 'var(--white)',
                   letterSpacing: '0.05em',
-                }}>Gopinathan D</div>
+                }}>Mohanraj A</div>
                 <div style={{
                   fontFamily: 'var(--font-condensed)',
                   fontSize: '0.78rem',
@@ -227,8 +227,8 @@ export default function Contact() {
 
             {sent && (
               <div style={{
-                background: 'rgba(200,245,0,0.1)',
-                border: '1px solid rgba(200,245,0,0.3)',
+                background: 'rgba(0,180,255,0.1)',
+                border: '1px solid rgba(0,180,255,0.3)',
                 borderRadius: '4px',
                 padding: '1rem',
                 marginBottom: '1.5rem',
@@ -277,7 +277,7 @@ export default function Contact() {
                       outline: 'none',
                       transition: 'border-color 0.2s',
                     }}
-                    onFocus={e => e.target.style.borderColor = 'rgba(200,245,0,0.4)'}
+                    onFocus={e => e.target.style.borderColor = 'rgba(0,180,255,0.4)'}
                     onBlur={e => e.target.style.borderColor = 'rgba(255,255,255,0.08)'}
                   />
                 </div>
@@ -313,7 +313,7 @@ export default function Contact() {
                     resize: 'vertical',
                     transition: 'border-color 0.2s',
                   }}
-                  onFocus={e => e.target.style.borderColor = 'rgba(200,245,0,0.4)'}
+                  onFocus={e => e.target.style.borderColor = 'rgba(0,180,255,0.4)'}
                   onBlur={e => e.target.style.borderColor = 'rgba(255,255,255,0.08)'}
                 />
               </div>
@@ -335,7 +335,7 @@ export default function Contact() {
                 transition: 'all 0.2s',
                 marginTop: '0.5rem',
               }}
-                onMouseEnter={e => e.currentTarget.style.background = '#a8d000'}
+                onMouseEnter={e => e.currentTarget.style.background = '#0090cc'}
                 onMouseLeave={e => e.currentTarget.style.background = 'var(--pulse)'}
               >
                 <Send size={16} />
@@ -350,7 +350,7 @@ export default function Contact() {
           marginTop: '4rem',
           borderRadius: '4px',
           overflow: 'hidden',
-          border: '1px solid rgba(200,245,0,0.1)',
+          border: '1px solid rgba(0,180,255,0.1)',
           height: '300px',
           background: 'var(--dark-2)',
           display: 'flex',
@@ -359,7 +359,7 @@ export default function Contact() {
           flexDirection: 'column',
           gap: '1rem',
         }}>
-          <MapPin size={32} color="#c8f500" />
+          <MapPin size={32} color="#00b4ff" />
           <p style={{
             fontFamily: 'var(--font-condensed)',
             fontSize: '1rem',
@@ -368,10 +368,10 @@ export default function Contact() {
             textAlign: 'center',
             padding: '0 2rem',
           }}>
-            Door No. 304, Heritage Estate, Yelahanka, Bengaluru – 560064, Karnataka
+            No.442, Old Ambattur, SIDCO Industrial Estate, Chennai - 600058, Tamil Nadu
           </p>
           <a
-            href="https://maps.google.com/?q=Yelahanka+Heritage+Estate+Bengaluru"
+            href="https://maps.google.com/?q=No.442,Old+Ambattur,SIDCO+Industrial+Estate,Chennai+600058"
             target="_blank"
             rel="noreferrer"
             style={{
@@ -381,12 +381,12 @@ export default function Contact() {
               letterSpacing: '0.15em',
               textTransform: 'uppercase',
               color: 'var(--pulse)',
-              border: '1px solid rgba(200,245,0,0.3)',
+              border: '1px solid rgba(0,180,255,0.3)',
               padding: '0.5rem 1.5rem',
               borderRadius: '2px',
               transition: 'all 0.2s',
             }}
-            onMouseEnter={e => e.target.style.background = 'rgba(200,245,0,0.08)'}
+            onMouseEnter={e => e.target.style.background = 'rgba(0,180,255,0.08)'}
             onMouseLeave={e => e.target.style.background = 'transparent'}
           >
             Open in Google Maps

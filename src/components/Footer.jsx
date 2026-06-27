@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer style={{
       background: 'var(--black)',
-      borderTop: '1px solid rgba(200,245,0,0.1)',
+      borderTop: '1px solid rgba(0,180,255,0.1)',
       padding: '3rem 2rem 2rem',
     }}>
       <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
@@ -18,13 +18,13 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1rem' }}>
-              <Zap size={20} color="#c8f500" fill="#c8f500" />
+              <Zap size={20} color="#00b4ff" fill="#00b4ff" />
               <span style={{
                 fontFamily: 'var(--font-display)',
                 fontSize: '1.5rem',
                 letterSpacing: '0.08em',
                 color: 'var(--white)',
-              }}>PULSAR<span style={{ color: 'var(--pulse)' }}>.</span></span>
+              }}>NEON<span style={{ color: 'var(--pulse)' }}>.</span></span>
             </div>
             <p style={{
               fontSize: '0.88rem',
@@ -33,7 +33,7 @@ export default function Footer() {
               fontWeight: 300,
               maxWidth: '220px',
             }}>
-              Bengaluru's premier fitness destination. Where champions are made.
+              Chennai's premier fitness destination. Where champions are made.
             </p>
           </div>
 
@@ -58,7 +58,7 @@ export default function Footer() {
                     letterSpacing: '0.05em',
                     transition: 'color 0.2s',
                   }}
-                    onMouseEnter={e => e.target.style.color = '#c8f500'}
+                    onMouseEnter={e => e.target.style.color = '#00b4ff'}
                     onMouseLeave={e => e.target.style.color = 'var(--grey)'}
                   >{link}</a>
                 </li>
@@ -78,30 +78,30 @@ export default function Footer() {
               marginBottom: '1rem',
             }}>Contact</h4>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
-              <a href="tel:+919980588044" style={{
+              <a href="tel:+919344983750" style={{
                 display: 'flex', gap: '0.6rem', alignItems: 'center',
                 fontSize: '0.88rem', color: 'var(--grey)', transition: 'color 0.2s',
               }}
-                onMouseEnter={e => e.currentTarget.style.color = '#c8f500'}
+                onMouseEnter={e => e.currentTarget.style.color = '#00b4ff'}
                 onMouseLeave={e => e.currentTarget.style.color = 'var(--grey)'}
               >
-                <Phone size={14} color="#c8f500" />
-                +91 99805 88044
+                <Phone size={14} color="#00b4ff" />
+                +91 93449 83750
               </a>
-              <a href="mailto:gopi.orafly@gmail.com" style={{
+              <a href="mailto:mohanraja23032003@gmail.com" style={{
                 display: 'flex', gap: '0.6rem', alignItems: 'center',
                 fontSize: '0.88rem', color: 'var(--grey)', transition: 'color 0.2s',
               }}
-                onMouseEnter={e => e.currentTarget.style.color = '#c8f500'}
+                onMouseEnter={e => e.currentTarget.style.color = '#00b4ff'}
                 onMouseLeave={e => e.currentTarget.style.color = 'var(--grey)'}
               >
-                <Mail size={14} color="#c8f500" />
-                gopi.orafly@gmail.com
+                <Mail size={14} color="#00b4ff" />
+                mohanraja23032003@gmail.com
               </a>
               <div style={{ display: 'flex', gap: '0.6rem', alignItems: 'flex-start' }}>
-                <MapPin size={14} color="#c8f500" style={{ flexShrink: 0, marginTop: '2px' }} />
+                <MapPin size={14} color="#00b4ff" style={{ flexShrink: 0, marginTop: '2px' }} />
                 <span style={{ fontSize: '0.88rem', color: 'var(--grey)', lineHeight: '1.5' }}>
-                  Door No. 304, Heritage Estate,<br />Yelahanka, Bengaluru – 560064
+                  No.442, Old Ambattur,<br />SIDCO Industrial Estate, Chennai – 600058
                 </span>
               </div>
             </div>
@@ -149,7 +149,7 @@ export default function Footer() {
             color: 'var(--grey)',
             letterSpacing: '0.05em',
           }}>
-            © {new Date().getFullYear()} Pulsar Fitness Centre. All rights reserved.
+            © {new Date().getFullYear()} Neon Fitness Gym. All rights reserved.
           </p>
           <p style={{
             fontFamily: 'var(--font-condensed)',
@@ -157,7 +157,7 @@ export default function Footer() {
             color: 'var(--grey)',
             letterSpacing: '0.05em',
           }}>
-            Yelahanka, Bengaluru, Karnataka
+            Old Ambattur, Chennai, Tamil Nadu
           </p>
         </div>
       </div>

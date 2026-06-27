@@ -33,20 +33,20 @@ export default function Navbar() {
       alignItems: 'center',
       justifyContent: 'space-between',
       background: scrolled ? 'rgba(10,10,10,0.97)' : 'transparent',
-      borderBottom: scrolled ? '1px solid rgba(200,245,0,0.15)' : 'none',
+      borderBottom: scrolled ? '1px solid rgba(0,180,255,0.15)' : 'none',
       backdropFilter: scrolled ? 'blur(12px)' : 'none',
       transition: 'all 0.3s ease',
     }}>
       {/* Logo */}
       <a href="#home" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-        <Zap size={22} color="#c8f500" fill="#c8f500" />
+        <Zap size={22} color="#00b4ff" fill="#00b4ff" />
         <span style={{
           fontFamily: 'var(--font-display)',
           fontSize: '1.6rem',
           letterSpacing: '0.08em',
           color: 'var(--white)',
         }}>
-          PULSAR<span style={{ color: 'var(--pulse)' }}>.</span>
+          NEON<span style={{ color: 'var(--pulse)' }}>.</span>
         </span>
       </a>
 
@@ -68,7 +68,7 @@ export default function Navbar() {
               color: 'var(--grey-light)',
               transition: 'color 0.2s',
             }}
-              onMouseEnter={e => e.target.style.color = '#c8f500'}
+              onMouseEnter={e => e.target.style.color = '#00b4ff'}
               onMouseLeave={e => e.target.style.color = 'var(--grey-light)'}
             >
               {link.label}
@@ -88,7 +88,7 @@ export default function Navbar() {
             textTransform: 'uppercase',
             transition: 'background 0.2s',
           }}
-            onMouseEnter={e => e.target.style.background = '#a8d000'}
+            onMouseEnter={e => e.target.style.background = '#0090cc'}
             onMouseLeave={e => e.target.style.background = 'var(--pulse)'}
           >
             Join Now
@@ -115,7 +115,7 @@ export default function Navbar() {
           right: 0,
           background: 'rgba(10,10,10,0.98)',
           padding: '2rem',
-          borderTop: '1px solid rgba(200,245,0,0.2)',
+          borderTop: '1px solid rgba(0,180,255,0.2)',
           backdropFilter: 'blur(12px)',
         }}>
           <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>

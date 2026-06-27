@@ -31,7 +31,7 @@ export default function Facilities() {
         right: 0,
         width: '400px',
         height: '400px',
-        background: 'radial-gradient(circle, rgba(200,245,0,0.05) 0%, transparent 70%)',
+        background: 'radial-gradient(circle, rgba(0,180,255,0.05) 0%, transparent 70%)',
         pointerEvents: 'none',
       }} />
 
@@ -76,20 +76,20 @@ export default function Facilities() {
               borderRadius: '4px',
               transition: 'border-color 0.2s',
             }}
-              onMouseEnter={e => e.currentTarget.style.borderColor = 'rgba(200,245,0,0.2)'}
+              onMouseEnter={e => e.currentTarget.style.borderColor = 'rgba(0,180,255,0.2)'}
               onMouseLeave={e => e.currentTarget.style.borderColor = 'rgba(255,255,255,0.05)'}
             >
               <div style={{
                 flexShrink: 0,
                 width: '42px',
                 height: '42px',
-                background: 'rgba(200,245,0,0.1)',
+                background: 'rgba(0,180,255,0.1)',
                 borderRadius: '4px',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
               }}>
-                <Icon size={20} color="#c8f500" />
+                <Icon size={20} color="#00b4ff" />
               </div>
               <div>
                 <div style={{
@@ -109,7 +109,7 @@ export default function Facilities() {
         {/* Equipment list */}
         <div style={{
           background: 'var(--dark-2)',
-          border: '1px solid rgba(200,245,0,0.1)',
+          border: '1px solid rgba(0,180,255,0.1)',
           borderRadius: '4px',
           padding: '2.5rem',
         }}>

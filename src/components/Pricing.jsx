@@ -126,8 +126,8 @@ export default function Pricing() {
         }}>
           {plans.map(plan => (
             <div key={plan.name} style={{
-              background: plan.highlight ? 'linear-gradient(135deg, #1a1f0a 0%, #111 100%)' : 'var(--dark)',
-              border: plan.highlight ? '1px solid rgba(200,245,0,0.4)' : '1px solid rgba(255,255,255,0.06)',
+              background: plan.highlight ? 'linear-gradient(135deg, #0a1020 0%, #111 100%)' : 'var(--dark)',
+              border: plan.highlight ? '1px solid rgba(0,180,255,0.4)' : '1px solid rgba(255,255,255,0.06)',
               borderRadius: '4px',
               padding: '2.5rem',
               position: 'relative',
@@ -187,7 +187,7 @@ export default function Pricing() {
               }}>
                 {plan.features.map(f => (
                   <div key={f} style={{ display: 'flex', gap: '0.7rem', alignItems: 'flex-start' }}>
-                    <Check size={16} color="#c8f500" style={{ flexShrink: 0, marginTop: '2px' }} />
+                    <Check size={16} color="#00b4ff" style={{ flexShrink: 0, marginTop: '2px' }} />
                     <span style={{ fontSize: '0.9rem', color: 'var(--grey-light)', fontWeight: 300 }}>{f}</span>
                   </div>
                 ))}
@@ -198,7 +198,7 @@ export default function Pricing() {
                 textAlign: 'center',
                 padding: '0.85rem',
                 background: plan.highlight ? 'var(--pulse)' : 'transparent',
-                border: plan.highlight ? 'none' : '1px solid rgba(200,245,0,0.3)',
+                border: plan.highlight ? 'none' : '1px solid rgba(0,180,255,0.3)',
                 color: plan.highlight ? 'var(--black)' : 'var(--pulse)',
                 fontFamily: 'var(--font-condensed)',
                 fontWeight: 700,
@@ -210,9 +210,9 @@ export default function Pricing() {
               }}
                 onMouseEnter={e => {
                   if (!plan.highlight) {
-                    e.target.style.background = 'rgba(200,245,0,0.08)'
+                    e.target.style.background = 'rgba(0,180,255,0.08)'
                   } else {
-                    e.target.style.background = '#a8d000'
+                    e.target.style.background = '#0090cc'
                   }
                 }}
                 onMouseLeave={e => {
